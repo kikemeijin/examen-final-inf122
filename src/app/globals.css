@@ -1,4 +1,10 @@
 :root {
+  --black:#000000;
+  --light_black: #393939;
+  --white:#F5F7FB;
+  --blue:#26367C;
+  --light_purple: #7480B2;
+  --grey:#676767;
   --max-width: 1100px;
   --border-radius: 12px;
   --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",

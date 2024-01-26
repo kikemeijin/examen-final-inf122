@@ -1,0 +1,32 @@
+.contenedor-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+}
+.barrita{
+    background-color: var(--blue);
+    width: 40px;
+    height:4px;
+    border-radius: 20%;
+    margin: 12px 0px;
+}
+.stats{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+}
+.tex{
+    text-align: start;
+    text-transform: lowercase;
+}
+.text{
+    text-align: start;
+    margin: 10px 50px 10px 0px;
+    text-transform: capitalize;
+}
+.hab{
+    text-align: start;
+    margin: 10px 70px 10px 0px;
+    color:var(--grey);
+}
