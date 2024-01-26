@@ -8,6 +8,7 @@
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
+  text-transform: capitalize;
 }
 
 .description {
