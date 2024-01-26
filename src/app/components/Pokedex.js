@@ -4,7 +4,7 @@ import style from './Pokedex.module.css';
 import Info from "./Info.js";
 import { useState } from "react";
 function Pokedex(){
-    const url="https://pokeapi.co/api/v2/pokemon/2";
+    const url="https://pokeapi.co/api/v2/pokemon/55";
     const [pokemon,setPokemon]=useState("/vercel.svg");
     const [name,setName]=useState("...");
     const [id,setId]=useState(2);
